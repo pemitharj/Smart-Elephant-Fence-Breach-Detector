@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradyel"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Back Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button_cream"
+                android:text="Back"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textAlignment="center"
+                android:text="About Us"
+                android:textColor="#212121"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Image -->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="243dp"
+                android:layout_height="233dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/aboutus" />
+
+            <!-- Description -->
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:text="We are a group of passionate first-year undergraduate students from the Faculty of Engineering, University of Moratuwa, committed to using technology to solve real-world problems.\n\nThis mobile application was developed to assist rural communities by providing a reliable alert system for elephant fence breaches.\n\nBy combining simple hardware with a GSM module and an easy-to-use mobile app, our goal is to help reduce human-elephant conflict and promote safer living conditions near wildlife areas." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

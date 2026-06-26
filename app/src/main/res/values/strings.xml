@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Elephant</string>
+    <string name="elephant_fence_n_breach_detector">Elephant Fence \n Breach Detector</string>
+    <string name="elephant_fence_nbreach_detector">Elephant Fence\nBreach Detector</string>
+    <string name="get_started">Get Started</string>
+</resources>

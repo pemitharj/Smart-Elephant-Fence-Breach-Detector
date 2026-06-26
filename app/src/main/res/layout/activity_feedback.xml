@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradyel"
+    tools:context=".FeedbackActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Back Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="@drawable/rounded_button_cream"
+                android:text="Back"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="4dp"
+                android:padding="12dp" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:text="Feedback"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Image -->
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="243dp"
+                android:layout_height="233dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/feedback1" />
+
+            <!-- Feedback Input -->
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_edittext_feedback"
+                android:hint="Enter your feedback..."
+                android:inputType="textMultiLine"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:padding="12dp"
+                android:gravity="top|start" />
+
+            <!-- Enter Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/enterBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_button"
+                android:text="Enter"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:elevation="4dp"
+                android:padding="12dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
