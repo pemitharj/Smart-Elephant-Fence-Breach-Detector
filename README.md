@@ -81,12 +81,6 @@ My primary responsibility in this project was the design and development of the 
 
 ---
 
-## 📄 Project Report
-
-The full engineering design project report is available in the `Project Report` folder of this repository.
-
----
-
 ## 🚀 Key Highlights
 
 - Real-world IoT + mobile + cloud integration system  
