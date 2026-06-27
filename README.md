@@ -6,7 +6,7 @@ An IoT-based real-time monitoring system designed to detect elephant fence breac
 
 ## 📌 Overview
 
-The **Smart Elephant Fence Breach Detector System** is an engineering design project developed at the **University of Moratuwa** to help reduce human–elephant conflict in Sri Lanka.
+The **Smart Elephant Fence Breach Detector** is a Semester 2 Engineering Design Project developed by a group of students from the Department of Electronic and Telecommunication Engineering, University of Moratuwa, aimed at addressing human–elephant conflict in Sri Lanka.
 
 The system detects abnormal disturbances in electric fences using embedded sensors and triggers real-time alerts through multiple channels:
 
