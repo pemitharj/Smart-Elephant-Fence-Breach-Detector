@@ -66,8 +66,6 @@ My primary responsibility in this project was the design and development of the 
 
 - Designed and implemented complete UI/UX of the mobile app  
 - Developed multiple Android screens using Android Studio  
-- Implemented Firebase OTP authentication system  
-- Integrated Firebase Cloud Messaging (FCM) for real-time alerts  
 - Connected mobile app with backend APIs for live data communication  
 - Implemented message display and alert tracking system  
 - Supported system testing and integration  
@@ -80,6 +78,12 @@ My primary responsibility in this project was the design and development of the 
 - A. H. D. Karunanayake  
 - G. D. N. Withanage  
 - N. P. P. Piyumal  
+
+---
+
+## 📄 Project Report
+
+The full engineering design project report is available in the `Project Report` folder of this repository.
 
 ---
 
