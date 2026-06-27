@@ -29,15 +29,91 @@ This repository focuses on the **Android mobile application and system integrati
 
 ---
 
-## 🧠 System Architecture
+## 🛠 Technologies Used
 
-```text
-Sensor Unit (ESP32 + Gyroscope)
-            ↓
-      GSM Module (SIM800A)
-            ↓
-     Backend Server (Oracle / API Layer)
-            ↓
-     Firebase Cloud Messaging (FCM)
-            ↓
-     Android Mobile Application
+### 📱 Mobile Application
+- Android Studio
+- Java / XML
+- Firebase Authentication
+- Firebase Cloud Messaging (FCM)
+
+---
+
+### ☁️ Backend & Communication
+- REST API
+- Firebase Cloud Services
+- GSM (SIM800A module)
+
+---
+
+### 🔧 Embedded System
+- ESP32 Microcontroller
+- BMI160 Accelerometer / Gyroscope
+- Solar-powered system design
+
+---
+
+### 🧰 Tools
+- Git & GitHub
+- Arduino IDE
+- Android Studio
+
+---
+
+## 👨‍💻 My Contribution
+
+My primary responsibility in this project was the design and development of the Android mobile application, including:
+
+- Designed and implemented complete UI/UX of the mobile app  
+- Developed multiple Android screens using Android Studio  
+- Implemented Firebase OTP authentication system  
+- Integrated Firebase Cloud Messaging (FCM) for real-time alerts  
+- Connected mobile app with backend APIs for live data communication  
+- Implemented message display and alert tracking system  
+- Supported system testing and integration  
+
+---
+
+## 👥 Group Members
+
+- J. A. P. R. Jayasinghe  
+- A. H. D. Karunanayake  
+- G. D. N. Withanage  
+- N. P. P. Piyumal  
+
+---
+
+## 🚀 Key Highlights
+
+- Real-world IoT + mobile + cloud integration system  
+- Designed to reduce human–elephant conflict in Sri Lanka  
+- Combines embedded systems, GSM communication, Firebase, and Android app  
+- Real-time emergency alert delivery system  
+
+---
+
+## 📈 Future Improvements
+
+- GPS-based fence location mapping  
+- AI-based elephant movement prediction  
+- Offline alert caching system  
+- Multi-zone monitoring dashboard  
+
+---
+
+## 🧭 Purpose of This Repository
+
+This repository is part of my engineering portfolio and demonstrates:
+
+- Android mobile application development  
+- Firebase integration (Authentication + Cloud Messaging)  
+- Real-time system design and IoT integration  
+- Backend communication and event-driven architecture  
+
+---
+
+## ⭐ Note
+
+This repository primarily showcases my contribution to the Android mobile application. Other system components (embedded hardware, PCB design, enclosure design) were developed collaboratively by the project team.
+
+
