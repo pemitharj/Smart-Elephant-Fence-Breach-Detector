@@ -11,7 +11,7 @@ The system integrates embedded hardware, GSM communication, and a mobile applica
 
 ### Mobile Application
 - Android Studio
-- Java / XML
+- Kotlin
 - Firebase Authentication
 - Firebase Cloud Messaging (FCM)
 
